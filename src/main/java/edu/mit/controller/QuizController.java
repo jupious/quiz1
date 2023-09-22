@@ -16,6 +16,7 @@ public class QuizController {
 
 	@GetMapping("quiz1")
 	public void quiz1(Model model) {
+		log.info("금요일~~~");
 		model.addAttribute("today","오늘은 금요일");
 	}
 }
